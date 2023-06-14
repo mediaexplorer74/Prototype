@@ -1,29 +1,28 @@
-Prototype
-=========
+# Prototype
+
+![](Images/prototype.png)
 
 The source code of "Prototype" by X-Out: #1 Place in "Horizontal Shooter with BOSS Competition".
 
 
+## Resources for R.E./GameDev
+
+- Developer's webpage (stored on web.archive.org):
+https://web.archive.org/web/20150214012532/http://xout.blackened-interactive.com/ProtoType/Prototype.html
+
+- Download whole game here: https://web.archive.org/web/20150214012532/http://xout.blackened-interactive.com/ProtoType/ProtoType.zip
 
 
-Developer's webpage:
-====================
-
-http://xout.blackened-interactive.com/ProtoType/Prototype.html
-
-
-
-
-About this port :
-=================
+## About Fabien's this port
 
 The source code rotted a while ago: 
 
-    - It was using SDL 1.3 pBuffer (a fork that ended up canned).
-    - It was using a very old version of FMOD.
+ - It was using SDL 1.3 pBuffer (a fork that ended up canned).
+ - It was using a very old version of FMOD.
 
-I emulate FMOD with SDL_Mixer and pBuffer with OpenGL FBO. And it works !
+He emulated FMOD with SDL_Mixer and pBuffer with OpenGL FBO. And it works :)
 
-Enjoy,
 
-Fabien Sanglard
+## Credits
+
+[Fabien Sanglard](https://fabiensanglard.net)
