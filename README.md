@@ -13,7 +13,7 @@ https://web.archive.org/web/20150214012532/http://xout.blackened-interactive.com
 - Download whole game here: https://web.archive.org/web/20150214012532/http://xout.blackened-interactive.com/ProtoType/ProtoType.zip
 
 
-## About Fabien's this port
+## About Fabien's port
 
 The source code rotted a while ago: 
 
@@ -26,3 +26,9 @@ He emulated FMOD with SDL_Mixer and pBuffer with OpenGL FBO. And it works :)
 ## Credits
 
 [Fabien Sanglard](https://fabiensanglard.net)
+
+## ..
+As-is. No support. DIY
+
+## .
+[m][e] 2023
