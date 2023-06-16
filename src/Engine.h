@@ -1,17 +1,17 @@
 #pragma once
 
-#ifdef WIN32
+//#ifdef WIN32
     #include <windows.h>
     #include <sdl.h>
-#else
-    #include <SDL/SDL.h>
-    #include <unistd.h>
-    #include <cstring>
-    #define DeleteFile ::unlink
-    #define stricmp ::strcasecmp
-    #define _TCHAR char
-#define _tmain main
-#endif
+//#else
+//    #include <SDL/SDL.h>
+//    #include <unistd.h>
+//    #include <cstring>
+//    #define DeleteFile ::unlink
+//    #define stricmp ::strcasecmp
+//    #define _TCHAR char
+//#define _tmain main
+//#endif
 
 #include <fstream>
 

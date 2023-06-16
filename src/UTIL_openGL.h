@@ -1,28 +1,31 @@
 #pragma once
 //#include <gl/glew.h>
-#ifdef _WIN32
+//#ifdef _WIN32
 #include <windows.h>
 #include <gl/gl.h>
 #include <gl/glu.h>
 #include "gl/glext.h"
 #include "gl/wglext.h"
-#elif defined(__linux__)
-#include <GL/glew.h>
-#else
-#include <OpenGL/gl.h>
-#include <OpenGL/glu.h>
-#endif
+//#elif defined(__linux__)
+//#include <GL/glew.h>
+//#else
+//#include <OpenGL/gl.h>
+//#include <OpenGL/glu.h>
+//#endif
 
 #define ILUT_USE_OPENGL 1
-#if defined(__linux__)
-#include <IL/il.h>
-#include <IL/ilu.h>
-#include <IL/ilut.h>
-#else
+
+
+//#if defined(__linux__)
+//#include <IL/il.h>
+//#include <IL/ilu.h>
+//#include <IL/ilut.h>
+//#else
 #include <il/il.h>
 #include <il/ilu.h>
 #include <il/ilut.h>
-#endif
+//#endif
+
 #include <string>
 #include <sstream>
 #include "Log.h"

@@ -1,9 +1,9 @@
 #pragma once
-#ifdef WIN32
+//#ifdef WIN32
 #include <sdl.h>
-#else
-#include <SDL/SDL.h>
-#endif
+//#else
+//#include <SDL/SDL.h>
+//#endif
 class Timer
 {
 private:

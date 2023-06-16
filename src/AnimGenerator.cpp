@@ -1,5 +1,6 @@
 #include "AnimGenerator.h"
 #include "Engine.h"
+
 AnimGenerator::AnimGenerator()
 {
 	iLayer = 1;

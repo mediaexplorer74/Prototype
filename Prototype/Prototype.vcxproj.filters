@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>3667300b-2f33-4384-905e-ff0e075b0140</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="source">
+      <UniqueIdentifier>{d3fdede2-adeb-425d-8055-68ab011daf1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{56e6702c-f4be-417b-9287-20511e0065b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Externals\SDL2\src\main\winrt\SDL_winrt_main_NonXAML.cpp" />
+    <ClCompile Include="..\src\Engine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnimGenerator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Beam.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Boss.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BrainBoss.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BrainCell.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BreakScenery.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bug.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bullet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Button.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Debris.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckPoint.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Editor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTIL_SDL.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Editor_Anims.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Editor_EntityProperties.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine_Generators.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Explosion.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Fighter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rhino.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandExplosion.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProtoType.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Profiler.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PowerUp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PowerDroid.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PostEffects.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pop_main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Orb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MidBoss.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Map.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Log.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LadyBird.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HUD.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geo2D_Draw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geo2D.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Generator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FrontEnd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Font.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\firebug.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Fire.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileIO.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\seg000.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\seg009.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Serializer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Serpent.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SolarFlare.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sound.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpaceTrash.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sperm.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpriteEffect.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpriteSheet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StarBurst.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stb_vorbis.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SuperTurret.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysImplementation.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TriggerSlowDown.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TriggerSpeedUp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Turret.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTIL_bitop.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTIL_Fade.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTIL_Misc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTIL_openGL.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
+    <None Include="..\Prototype.ini" />
+    <None Include="..\DATA\Demo1.dem" />
+    <None Include="..\DATA\Demo2.dem" />
+    <None Include="..\DATA\Demo3.dem" />
+    <None Include="..\DATA\Demo4.dem" />
+    <None Include="..\DATA\Demo5.dem" />
+    <None Include="..\DATA\Gfx\BossTube.psd" />
+    <None Include="..\DATA\Gfx\ExplosionSmall.psd" />
+    <None Include="..\DATA\Gfx\Fonts.psd" />
+    <None Include="..\DATA\Gfx\Fonts2.psd" />
+    <None Include="..\DATA\Gfx\Fonts2Shadow.psd" />
+    <None Include="..\DATA\Gfx\FontShadow.psd" />
+    <None Include="..\DATA\Gfx\GameOver.psd" />
+    <None Include="..\DATA\Gfx\GUI.psd" />
+    <None Include="..\DATA\Gfx\Scanlines.psd" />
+    <None Include="..\DATA\Gfx\SolarFlare.psd" />
+    <None Include="..\DATA\Gfx\Splash.psd" />
+    <None Include="..\DATA\Gfx\Stage1.psd" />
+    <None Include="..\DATA\Gfx\Thumbs.db" />
+    <None Include="..\DATA\Maps\Stage1.stg" />
+    <None Include="..\DATA\Sound\AttractMode.ogg" />
+    <None Include="..\DATA\Sound\Boss.ogg" />
+    <None Include="..\DATA\Sound\GameOver.ogg" />
+    <None Include="..\DATA\Sound\HiScores.ogg" />
+    <None Include="..\DATA\Sound\Stage1.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\anim_back1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\anim_back2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\anim_Fore1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\anim_Fore2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\anim_Fore3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Anims.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BitUpgrade.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BlueExplosion.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Boss.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossArm.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossBrain.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossBrainCell.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossCharge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossEye1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossEye2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossEye3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossEye4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossEye5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossPush.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossSperm.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossTubeFluid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BossTubeSpec.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Bug.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BulletHit.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BulletHit2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BulletHit3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\BulletSet1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\chainParticle.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\ClusterBomb.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Congrats.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\DamageTile1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\ED_ico.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Entities.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Entities copy.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Explosion2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Fighter.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Fire.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Fireball.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\FireBug.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\forceblast.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\forcecharge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\GameOverSeq.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\GlowBullets.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\GroundTroop_Aim.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\GroundTroop_Turn.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\GroundTroop_Walk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\HiScoreSeq.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\HomingMissile.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\HudBeam.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Implosion.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Ladybird.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\LiftOff.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\LiftOff2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBoss.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBossCore.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBossFoot.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBossGun.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBossSeg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\MidBossTailSeg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Missile.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Orb1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\PlayerShip.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\PlayerSpeed.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\PowerDroid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\PowerUp1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\PrototypeMk1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\RoboticTorso.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Rocket.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SerpentBody.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SerpentHead.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SerpentTail.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\ShmupDev.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SmokePuff.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SolarFlare.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SpaceTrash.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SplashBack.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Stage1Layer1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\StarBurst.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\SuperTurret.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Thruster.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\Turret1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\water.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\DATA\Gfx\WaterSplash.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AnimGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Beam.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Boss.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BrainBoss.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BrainCell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BreakScenery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bullet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Button.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CheckPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Debris.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Demo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Explosion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Fighter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FileIO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Fire.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fireBug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Font.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Geo2D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Geo2D_Draw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LadyBird.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MidBoss.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Orb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PowerDroid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PowerUp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Profiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\proto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RandExplosion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rhino.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDL_KeyMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Serializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Serpent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SolarFlare.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sound.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sound_Macros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpaceTrash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sperm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpriteEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpriteSheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StarBurst.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SuperTurret.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Tile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TriggerSlowDown.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TriggerSpeedUp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Turret.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTIL_bitop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTIL_Fade.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTIL_Misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTIL_openGL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTIL_SDL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sys.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\intern.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\endian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\DATA\Sound\BigLaser1.wav" />
+    <Media Include="..\DATA\Sound\BigLaser2.wav" />
+    <Media Include="..\DATA\Sound\deflection.wav" />
+    <Media Include="..\DATA\Sound\Force.wav" />
+    <Media Include="..\DATA\Sound\ForceCharge.wav" />
+    <Media Include="..\DATA\Sound\LargeExplosion.wav" />
+    <Media Include="..\DATA\Sound\LargeExplosion2.wav" />
+    <Media Include="..\DATA\Sound\Laser.wav" />
+    <Media Include="..\DATA\Sound\Laser2.wav" />
+    <Media Include="..\DATA\Sound\Laser3.wav" />
+    <Media Include="..\DATA\Sound\Laser4.wav" />
+    <Media Include="..\DATA\Sound\Laser5.wav" />
+    <Media Include="..\DATA\Sound\Laser6.wav" />
+    <Media Include="..\DATA\Sound\Laser7.wav" />
+    <Media Include="..\DATA\Sound\MedExplosion.wav" />
+    <Media Include="..\DATA\Sound\OrbSpawn.wav" />
+    <Media Include="..\DATA\Sound\PickUp.wav" />
+    <Media Include="..\DATA\Sound\smallExplosion.wav" />
+    <Media Include="..\DATA\Sound\UI_move.wav" />
+    <Media Include="..\DATA\Sound\UI_Select.wav" />
+  </ItemGroup>
+</Project>
