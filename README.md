@@ -14,9 +14,9 @@ This is a short, unfinished prototype of a platformer made in February 2017 as p
 ![W11](Images/sshot03.png)
 
 ## My 2 cents
-. NET -> UWP
-. Min. Win. SDK = 10240 
-. Gode-mod activated :)
+-  NET -> UWP
+- Min. Win. SDK = 10240 
+- Gode-mode activated :)
 
 ## ToDo
 - Realize some simplest game process ;)
